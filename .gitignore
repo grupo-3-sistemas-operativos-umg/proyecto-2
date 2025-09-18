@@ -1,0 +1,65 @@
+.idea
+.vscode
+# Byte-code files
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.env/
+venv/
+env/
+.venv/
+
+# Editor/IDE specific files
+.idea/ # PyCharm
+.vscode/ # VS Code
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Database files
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+.flaskenv
+
+# Miscellaneous
+*.log
+local_settings.py # Django specific
+instance/ # Flask specific
+.webassets-cache # Flask specific
+.scrapy # Scrapy specific
+docs/_build/ # Sphinx documentation
+target/ # PyBuilder
+profile_default/ # IPython
+ipython_config.py # IPython
+.python-version # pyenv
+celerybeat-schedule # Celery beat schedule file
+*.sage.py # SageMath parsed files
+/site # mkdocs documentation
