@@ -4,7 +4,7 @@ from collections import deque    # deque para administrar la ready queue de mane
 from Estrategias.ProcesoEstrategiaBase import ProcesoEstrategiaBase
 
 # ---------- Constantes ----------
-TIME_UNIT = 5  # cada unidad de tiempo de la simulación dura 5 segundos reales (ajústalo si quieres)
+TIME_UNIT = 5  # cada unidad de tiempo de la simulación dura 5 segundos reales
 
 class ServicioEmulador:
     """
