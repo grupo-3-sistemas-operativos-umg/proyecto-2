@@ -41,6 +41,14 @@ class ControladorEmulador:
             if tiempo <= 0 or llegada < 0 or quantum < 0:
                 raise ValueError("Valores negativos o cero inválidos para tiempos")
 
+                # Validar que todos los procesos tengan el mismo quantum (Round Robin)
+            if self.procesos:  # si ya hay procesos en la lista
+                quantum_existente = self.procesos[0].quantum
+                if quantum_existente != quantum:
+                    raise ValueError(
+                        f"El quantum debe ser el mismo para todos los procesos (actual: {quantum_existente})"
+                    )
+
             # si no se dio nombre, generamos uno automático
             nombre_final = nombre or f"Proceso{len(self.procesos)+1}"
             p = Proceso(nombre_final, tiempo, llegada, quantum)
