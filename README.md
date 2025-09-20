@@ -216,6 +216,15 @@ Proceso.py → define los procesos que todos los módulos manipulan.
  │ (datos del proceso)     │
  └─────────────────────────┘
 
+```
 
-### Demostración:
+## Demostración:
+
+[screen-capture (10).webm](https://github.com/user-attachments/assets/88bd2875-36b7-4aa7-8368-9006080ee09a)
+
+
+<img width="1920" height="1005" alt="Captura de pantalla (164)" src="https://github.com/user-attachments/assets/34c58d7d-54cf-406c-8ab2-7c48be98f37a" />
+
+
+
 
