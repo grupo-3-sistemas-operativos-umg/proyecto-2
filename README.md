@@ -1,12 +1,3 @@
-
-# Instrucciones
-
-1. Clonar este repositorio
-2. Ejecutar el archivo main.py (usando el comando python main.py o python3 main.py)
-
-# Demostración de uso
-
-
 # Manual de usuario
 
 Este proyecto simula cómo un sistema operativo gestiona varios procesos usando distintos algoritmos de planificación:
@@ -20,6 +11,17 @@ Este proyecto simula cómo un sistema operativo gestiona varios procesos usando 
 * Round Robin → Cada proceso obtiene un turno de CPU con duración igual al quantum. Cuando se le acaba, si aún no terminó, vuelve a la cola.
 
 El programa automatiza el trabajo del planificador: recibe procesos como entrada, aplica el algoritmo elegido y  muestra cómo se van ejecutando hasta que todos terminan.
+
+## Tecnologías Utilizadas
+
+* Python 3.13.2
+
+## Instalación
+
+1. Clonar este repositorio
+2. Ejecutar el archivo main.py (usando el comando python main.py o python3 main.py)
+
+## Demostración de uso
 
 ## ¿Cómo interpretar la interfaz gráfica (UI)?
 
@@ -164,7 +166,7 @@ RoundRobinEstrategia.py: rota procesos con quantum fijo.
 
 👉 Aquí están las reglas del juego que decide cómo la CPU asigna el tiempo.
 
-🔗 Resumen de conexiones:
+### 🔗 Resumen de conexiones:
 
 main.py → inicia la interfaz (VistaEmulador).
 
@@ -175,6 +177,8 @@ ControladorEmulador → gestiona acciones de usuario y lanza ServicioEmulador.
 ServicioEmulador → ejecuta la simulación aplicando una Estrategia sobre los Procesos.
 
 Proceso.py → define los procesos que todos los módulos manipulan.
+
+### Diagrama
 
 ```text
                 ┌─────────────┐
